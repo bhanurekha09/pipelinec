@@ -6,7 +6,7 @@ agent none
                  stage ( 'STAGE 1'){
                         agent { label 'master' }
                          steps {
-                                sh 'git 
+                                sh 'git https://github.com/bhanurekha09/pipelinec.git'
                                 sh 'make'
                                 }
                    }
@@ -14,4 +14,4 @@ agent none
                                 
                        
                 
- 
+}
