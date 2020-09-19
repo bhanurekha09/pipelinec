@@ -7,7 +7,11 @@ agent none
                         agent { label 'master' }
                          steps {
                                 sh 'git clone https://github.com/bhanurekha09/csource.git'
-                                sh 'make'
+                                sh 'pwd'
+                                sh  'cd /var/lib/jenkins/workspace/pipeline-18-20'
+
+                                   
+                                   sh 'make'
                                 }
                    }
             }
