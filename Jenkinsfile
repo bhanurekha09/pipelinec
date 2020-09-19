@@ -6,7 +6,7 @@ agent none
                  stage ( 'STAGE 1'){
                         agent { label 'master' }
                          steps {
-                                sh 'git clone https://github.com/bhanurekha09/pipelinec.git'
+                                sh 'git clone https://github.com/bhanurekha09/csource.git'
                                 sh 'make'
                                 }
                    }
